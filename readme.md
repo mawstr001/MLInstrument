@@ -16,9 +16,9 @@ The design and functionality of the object were inspired by the forms and proper
 <h2>Software</h2>
 To turn movement, and the variables from the environment, into sound, we build a deep learning model which processed 3 input parameters (one for each sensor) and 3 output parameters (one for each sound signal).  The signals were read in as a string, parsed as an array which was passed into a simple, multilayer regression model with Tensorflow architecture.  We chose the regression model vs classification because we wanted the sound to be continuous (e.g., a slide on the violin) rather than discrete (e.g., a key on the piano). The software was developed using p5js, ml5js, and various packages from p5js such as p5serial and p5sound libraries.  
 
-The architecture of can be found below: 
+<p>The architecture of can be found below: 
 
-![Architecture](architecture.png)
+![Architecture](architecture.png)</p>
 
 <h2>Limitations</h2>
 Apart from the obvious technical difficulties of interfacing and integrating multiple layers some of the conceptual challenges (common to the NIME (New Interfaces for Musical Expression) and DMI (Digital Musical Instrument) domains) have become apparent during our work on the project. In such hybrid entity there is always a gap between the physical interface and the sounds it produces – the dissonance that doesn’t exist in most “traditional” instruments. This gap emphasizes the arbitrarily of parameter mapping and Machine Learning can be considered as a potent tool to overcome this gap. That said utilizing ML for these ends tends to create enough challenges of its own, for example it showed the inadequacy of the UI elements (sliders, buttons etc) usually used to train the model.
