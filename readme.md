@@ -16,6 +16,8 @@ The design and functionality of the object were inspired by the forms and proper
 <h2>Software</h2>
 To turn movement, and the variables from the environment, into sound, we build a deep learning model which processed 3 input parameters (one for each sensor) and 3 output parameters (one for each sound signal).  The signals were read in as a string, parsed as an array which was passed into a simple, multilayer regression model with Tensorflow architecture.  We chose the regression model vs classification because we wanted the sound to be continuous (e.g., a slide on the violin) rather than discrete (e.g., a key on the piano). The software was developed using p5js, ml5js, and various packages from p5js such as p5serial and p5sound libraries.  
 
+The architecture of can be found below: 
+
 ![Architecture](architecture.png)
 
 <h2>Limitations</h2>
