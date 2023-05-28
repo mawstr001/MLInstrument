@@ -1,4 +1,4 @@
-<h1>A instrument powered by Machine Learning</h1>
+<h1>Machine Learning Instrument</h1>
 
 ![We call it bambooz](Example.png)
 
