@@ -1,6 +1,6 @@
 <h1>Machine Learning Instrument</h1>
 
-![We call it bambooz](Example.png)
+[![Watch the video]([https://i.imgur.com/vKb2F1B.png](https://github.com/mawstr001/MLInstrument/assets/7450207/355caf2e-17b1-44f5-9ac3-366befa4fc7a))]([https://youtu.be/vt5fpE0bzSY](https://vimeo.com/831207987)
 
 <h2>Concept</h2>
 This project was inspired by the approach to improvisation based experimental music known as “environmental improvisation” explored in depth in Chinese sound artist Li Jianhong’s (李剑鸿) work https://www.discogs.com/artist/583392-Li-Jianhong. Understood simply as a musical improvisation with and within a given environment we aimed to extend it to both artificial and natural environments and sites where these environments overlap and co-exist, such as the Guangzhou Campus of HKUST where unused plots of land meet the WLAN covering the entirety of the campus. Initially conceived as an exploration of found objects and shapes, this project gradually shifted focus towards the idea of “found environments” while retaining the improviser’s agency to express themselves sonically with and within the said environments. 
